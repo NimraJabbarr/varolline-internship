@@ -1,0 +1,6 @@
+id,name,email,age,salary,department,join_date 
+101,Nimra,nimra@test.com,22,45000,IT,2024-01-15 
+102,,bad-email,25,50000,HR,2024-02-20 
+103,Ali,ali@test.com,-5,abc,IT,not-a-date 
+101,Nimra,nimra@test.com,22,45000,IT,2024-01-15 
+104,Sara,sara@test.com,28,60000,Finance,2024-03-10

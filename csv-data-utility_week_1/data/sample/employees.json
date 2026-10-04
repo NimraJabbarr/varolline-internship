@@ -1,0 +1,6 @@
+[
+  {"id": 1, "name": "hamza tariq", "email": "HAMZA@example.com", "age": 28, "salary": 75000, "department": "engineering", "join_date": "2021-04-01"},
+  {"id": 2, "name": "Maryam Noor", "email": "maryam@example.com", "age": "34", "salary": "Rs. 95,000", "department": "Engineering", "join_date": "15-08-2019"},
+  {"id": 3, "name": "Faizan Ali", "email": "faizan@example.com", "age": null, "salary": 54000, "department": "Sales", "join_date": "2022-02-20"},
+  {"id": 4, "name": "Sana Iqbal", "email": "sana@example.com", "age": 26, "salary": 58000.5, "department": "Sales", "join_date": "2023-03-03"}
+]

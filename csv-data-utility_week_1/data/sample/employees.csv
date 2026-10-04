@@ -1,0 +1,16 @@
+id,name,email,age,salary,department,join_date
+1,Ali Khan,ali@example.com,25,50000,IT,2022-01-15
+2,  sara ahmed ,SARA@EXAMPLE.COM,30,"60,000",hr,10/03/2021
+3,,sara@example.com,28,55000,IT,2023-05-20
+1,Ali Khan,ali@example.com,25,50000,IT,2022-01-15
+4,Bilal,invalid-email,-5,abc,IT,not-a-date
+5,Hina Riaz,hina@example.com,35,70000,,2020-11-01
+6,Usman,usman@example.com,40,80000,Finance,2019-07-25
+7,Ayesha,ayesha@example.com,32,65000,HR,2022-09-12
+8,Ahmed,ahmed@example.com,45,90000,Finance,2018-02-05
+9,Zara Malik,ZARA@example.com,29,N/A,IT,2023-01-10
+10,Omar Farooq,usman@example.com,38,72000,IT,2021-06-01
+11,Bina Shah,bina@example.com,150,48000,HR,2024-02-01
+12,Kamran Ali,kamran@example.com,27,61000.50,it,2030-01-01
+13,  noor   fatima ,noor@example.com,31,58000,Marketing,2022-12-12
+,,,,,,

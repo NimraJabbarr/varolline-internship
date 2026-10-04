@@ -1,0 +1,14 @@
+# Same rules as rules.json, in YAML (needs: pip install pyyaml)
+# Note: date formats must be quoted because they start with '%'.
+required_fields: [id, name, email, age, salary, department, join_date]
+unique_keys: [id, email]
+missing_tokens: [n/a, na, "null", none, nan, "-", "--", "?"]
+age_min: 16
+age_max: 100
+salary_min: 1
+salary_max: 10000000
+date_formats: ["%Y-%m-%d", "%d/%m/%Y", "%d-%m-%Y"]
+min_join_year: 1950
+# Restrict departments (case-insensitive), or leave null to accept any:
+allowed_departments: null
+# allowed_departments: [IT, HR, FINANCE, MARKETING]

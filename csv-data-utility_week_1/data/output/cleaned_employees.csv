@@ -1,0 +1,7 @@
+id,name,email,age,salary,department,join_date
+1,Ali Khan,ali@example.com,25,50000,IT,2022-01-15
+2,Sara Ahmed,sara@example.com,30,60000,HR,2021-03-10
+6,Usman,usman@example.com,40,80000,FINANCE,2019-07-25
+7,Ayesha,ayesha@example.com,32,65000,HR,2022-09-12
+8,Ahmed,ahmed@example.com,45,90000,FINANCE,2018-02-05
+13,Noor Fatima,noor@example.com,31,58000,MARKETING,2022-12-12

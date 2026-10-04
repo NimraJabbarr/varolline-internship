@@ -1,0 +1,9 @@
+line,status,reason,id,name,email,age,salary,department,join_date
+4,invalid,missing required field 'name',3,,sara@example.com,28,55000,IT,2023-05-20
+5,duplicate,duplicate id (first seen on line 2),1,Ali Khan,ali@example.com,25,50000,IT,2022-01-15
+6,invalid,invalid email 'invalid-email'; age -5 outside 16-100; salary is not a number: 'abc'; invalid join_date 'not-a-date',4,Bilal,invalid-email,-5,abc,IT,not-a-date
+7,invalid,missing required field 'department',5,Hina Riaz,hina@example.com,35,70000,,2020-11-01
+11,invalid,missing required field 'salary',9,Zara Malik,ZARA@example.com,29,N/A,IT,2023-01-10
+12,duplicate,duplicate email (first seen on line 8),10,Omar Farooq,usman@example.com,38,72000,IT,2021-06-01
+13,invalid,age 150 outside 16-100,11,Bina Shah,bina@example.com,150,48000,HR,2024-02-01
+14,invalid,join_date 2030-01-01 is in the future,12,Kamran Ali,kamran@example.com,27,61000.50,it,2030-01-01

@@ -1,0 +1,46 @@
+================================================================
+DATA CLEANING SUMMARY REPORT
+================================================================
+Source file  : employees.json
+Generated at : 2026-10-03T17:19:15
+
+INPUT / OUTPUT COUNTS
+----------------------------------------------------------------
+  Rows read              : 4
+  Blank rows skipped     : 0
+  Valid (exported)       : 3
+  Invalid (rejected)     : 1
+  Duplicates (rejected)  : 0
+
+WHY ROWS WERE REJECTED (invalid rows, by issue type)
+----------------------------------------------------------------
+  missing_field           : 1
+
+STATISTICS (on the 3 valid rows)
+----------------------------------------------------------------
+  Salary
+    mean    : 76,000.17
+    median  : 75,000.00
+    min/max : 58,000.50 / 95,000.00
+    std dev : 18,520.02
+    total   : 228,000.50
+  Age
+    mean    : 29.33
+    median  : 28.00
+    min/max : 26 / 34
+  Highest paid : Maryam Noor (95,000.00)
+
+  By department (count, average salary)
+    ENGINEERING         2        85,000.00
+    SALES               1        58,000.50
+
+  Hires by join year
+    2019 : 1
+    2021 : 1
+    2023 : 1
+
+REJECTED ROWS (first 10)
+----------------------------------------------------------------
+  line 3    [invalid] missing required field 'age'
+
+================================================================

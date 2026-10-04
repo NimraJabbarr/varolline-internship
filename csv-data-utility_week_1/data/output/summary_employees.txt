@@ -1,0 +1,61 @@
+================================================================
+DATA CLEANING SUMMARY REPORT
+================================================================
+Source file  : employees.csv
+Generated at : 2026-10-03T17:19:15
+
+INPUT / OUTPUT COUNTS
+----------------------------------------------------------------
+  Rows read              : 14
+  Blank rows skipped     : 1
+  Valid (exported)       : 6
+  Invalid (rejected)     : 6
+  Duplicates (rejected)  : 2
+
+WHY ROWS WERE REJECTED (invalid rows, by issue type)
+----------------------------------------------------------------
+  missing_field           : 3
+  age_out_of_range        : 2
+  future_date             : 1
+  invalid_date            : 1
+  invalid_email           : 1
+  invalid_salary          : 1
+
+STATISTICS (on the 6 valid rows)
+----------------------------------------------------------------
+  Salary
+    mean    : 67,166.67
+    median  : 62,500.00
+    min/max : 50,000.00 / 90,000.00
+    std dev : 14,972.20
+    total   : 403,000.00
+  Age
+    mean    : 33.83
+    median  : 31.50
+    min/max : 25 / 45
+  Highest paid : Ahmed (90,000.00)
+
+  By department (count, average salary)
+    FINANCE             2        85,000.00
+    HR                  2        62,500.00
+    IT                  1        50,000.00
+    MARKETING           1        58,000.00
+
+  Hires by join year
+    2018 : 1
+    2019 : 1
+    2021 : 1
+    2022 : 3
+
+REJECTED ROWS (first 10)
+----------------------------------------------------------------
+  line 4    [invalid] missing required field 'name'
+  line 5    [duplicate] duplicate id (first seen on line 2)
+  line 6    [invalid] invalid email 'invalid-email'; age -5 outside 16-100; salary is not a number: 'abc'; invalid join_date 'not-a-date'
+  line 7    [invalid] missing required field 'department'
+  line 11   [invalid] missing required field 'salary'
+  line 12   [duplicate] duplicate email (first seen on line 8)
+  line 13   [invalid] age 150 outside 16-100
+  line 14   [invalid] join_date 2030-01-01 is in the future
+
+================================================================

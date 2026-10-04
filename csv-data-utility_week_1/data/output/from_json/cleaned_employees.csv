@@ -1,0 +1,4 @@
+id,name,email,age,salary,department,join_date
+1,Hamza Tariq,hamza@example.com,28,75000,ENGINEERING,2021-04-01
+2,Maryam Noor,maryam@example.com,34,95000,ENGINEERING,2019-08-15
+4,Sana Iqbal,sana@example.com,26,58000.50,SALES,2023-03-03

@@ -1,0 +1,2 @@
+line,status,reason,id,name,email,age,salary,department,join_date
+3,invalid,missing required field 'age',3,Faizan Ali,faizan@example.com,,54000,Sales,2022-02-20

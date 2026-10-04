@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csvtool"
+version = "1.0.0"
+description = "Validate, clean and summarise CSV/TSV/JSON record files from the command line."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+excel = ["openpyxl>=3.1"]
+yaml = ["pyyaml>=6"]
+dev = ["pytest>=7", "mypy>=1.5", "ruff>=0.4", "openpyxl>=3.1", "pyyaml>=6", "types-PyYAML"]
+
+[project.scripts]
+csvtool = "csvtool.cli:main"
+
+[tool.setuptools]
+packages = ["csvtool"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.mypy]
+strict = true
+files = ["csvtool"]
+
+[[tool.mypy.overrides]]
+module = ["openpyxl", "openpyxl.*", "yaml"]
+ignore_missing_imports = true

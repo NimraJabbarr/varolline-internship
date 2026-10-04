@@ -1,0 +1,112 @@
+{
+  "source": "employees.csv",
+  "generated_at": "2026-10-03T17:19:15",
+  "counts": {
+    "rows_read": 14,
+    "blank_rows_skipped": 1,
+    "valid": 6,
+    "invalid": 6,
+    "duplicates": 2
+  },
+  "issue_breakdown": {
+    "missing_field": 3,
+    "age_out_of_range": 2,
+    "future_date": 1,
+    "invalid_date": 1,
+    "invalid_email": 1,
+    "invalid_salary": 1
+  },
+  "statistics": {
+    "records": 6,
+    "salary": {
+      "count": 6,
+      "mean": 67166.67,
+      "median": 62500.0,
+      "min": 50000.0,
+      "max": 90000.0,
+      "stdev": 14972.2,
+      "total": 403000.0
+    },
+    "age": {
+      "count": 6,
+      "mean": 33.83,
+      "median": 31.5,
+      "min": 25,
+      "max": 45,
+      "stdev": 7.31,
+      "total": 203
+    },
+    "by_department": {
+      "FINANCE": {
+        "count": 2,
+        "avg_salary": 85000.0
+      },
+      "HR": {
+        "count": 2,
+        "avg_salary": 62500.0
+      },
+      "IT": {
+        "count": 1,
+        "avg_salary": 50000.0
+      },
+      "MARKETING": {
+        "count": 1,
+        "avg_salary": 58000.0
+      }
+    },
+    "hires_by_year": {
+      "2018": 1,
+      "2019": 1,
+      "2021": 1,
+      "2022": 3
+    },
+    "highest_paid": {
+      "id": "8",
+      "name": "Ahmed",
+      "salary": 90000.0
+    }
+  },
+  "rejected_preview": [
+    {
+      "line": 4,
+      "status": "invalid",
+      "reason": "missing required field 'name'"
+    },
+    {
+      "line": 5,
+      "status": "duplicate",
+      "reason": "duplicate id (first seen on line 2)"
+    },
+    {
+      "line": 6,
+      "status": "invalid",
+      "reason": "invalid email 'invalid-email'; age -5 outside 16-100; salary is not a number: 'abc'; invalid join_date 'not-a-date'"
+    },
+    {
+      "line": 7,
+      "status": "invalid",
+      "reason": "missing required field 'department'"
+    },
+    {
+      "line": 11,
+      "status": "invalid",
+      "reason": "missing required field 'salary'"
+    },
+    {
+      "line": 12,
+      "status": "duplicate",
+      "reason": "duplicate email (first seen on line 8)"
+    },
+    {
+      "line": 13,
+      "status": "invalid",
+      "reason": "age 150 outside 16-100"
+    },
+    {
+      "line": 14,
+      "status": "invalid",
+      "reason": "join_date 2030-01-01 is in the future"
+    }
+  ],
+  "rejected_total": 8
+}
