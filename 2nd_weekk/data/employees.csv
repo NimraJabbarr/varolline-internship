@@ -1,0 +1,13 @@
+employee_id,name,email,age,salary,department,join_date
+1001,  Alice   Johnson  ,ALICE.JOHNSON@example.com,29,"$85,000",engineering,2021-03-15
+1002,bob smith,Bob.Smith@Example.com,41,92000,Engineering,15/06/2019
+1003,Carol Davis,carol.davis@example.com,35,78000.50,human resources,2020-01-20
+1004,,david.lee@example.com,28,61000,Marketing,2022-07-11
+1005,Eve Brown,not-an-email,33,70000,Sales,2019-11-05
+1006,Frank Miller,frank.miller@example.com,15,45000,Sales,2023-02-01
+1007,Grace Hopper,grace.hopper@example.com,thirty-seven,99000,Engineering,2018-09-30
+1008,Heidi Klum,heidi.klum@example.com,45,-12000,Finance,2020-05-17
+1009,Ivan Petrov,ivan.petrov@example.com,38,88000,Finance,2021-13-40
+1002,Bob Smith,bob.smith@example.com,41,92000,Engineering,2019-06-15
+1010,Judy  Dench,judy.dench@example.com,52,105000,human resources,01-02-2017
+1011,Karl Marx,karl.marx@example.com,31,67000,Marketing,2022-09-01

@@ -1,0 +1,6 @@
+employee_id,name,email,age,salary,department,join_date
+1001,Alice Johnson,alice.johnson@example.com,29,85000.00,Engineering,2021-03-15
+1002,Bob Smith,bob.smith@example.com,41,92000.00,Engineering,2019-06-15
+1003,Carol Davis,carol.davis@example.com,35,78000.50,Human Resources,2020-01-20
+1010,Judy Dench,judy.dench@example.com,52,105000.00,Human Resources,2017-02-01
+1011,Karl Marx,karl.marx@example.com,31,67000.00,Marketing,2022-09-01

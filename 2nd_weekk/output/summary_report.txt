@@ -1,0 +1,37 @@
+====================================================
+ CSV DATA PROCESSING - SUMMARY REPORT
+====================================================
+Generated          : 2026-10-17 20:21:15
+
+--- Row accounting ---
+Total input rows   : 12
+Valid records      : 5
+Invalid rows       : 6
+Duplicates removed : 1
+
+--- Salary statistics (valid records) ---
+Average salary     : 85,400.10
+Median salary      : 85,000.00
+Min salary         : 67,000.00
+Max salary         : 105,000.00
+
+--- Age statistics (valid records) ---
+Average age        : 37.6
+Youngest           : 29
+Oldest             : 52
+
+--- Headcount by department ---
+  Engineering         : 2
+  Human Resources     : 2
+  Marketing           : 1
+
+--- Validation issues ---
+  Row 5: [name] missing name
+  Row 6: [email] invalid email 'not-an-email'
+  Row 7: [age] age 15 outside allowed range 18-70
+  Row 8: [age] age '-' is not a number
+  Row 9: [salary] salary -12000.00 must be positive
+  Row 10: [join_date] unrecognized date '2021-13-40'
+
+--- Duplicates removed ---
+  employee_id 1002 (Bob Smith) - duplicate dropped

@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual Environments
+myenv/
+venv/
+.venv/
+env/
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checkers
+.mypy_cache/
+.ruff_cache/
+
+# IDE / Local history
+.vscode/
+.idea/
+.history/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Databases / generated artifacts
+*.db
+*.sqlite3
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Tooling
+.commandcode/

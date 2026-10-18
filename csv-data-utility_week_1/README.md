@@ -1,7 +1,7 @@
 # csvtool: CSV / JSON Data Validation, Cleaning & Reporting Utility
 
 A reusable command-line tool that reads a file of records (employees by default), **detects missing,
-invalid and duplicate rows**, **cleans and normalises** the good ones, **calculates statistics**, and
+invalid and duplicate rows**, **clean** the good ones, **calculates statistics**, and
 exports a **cleaned CSV**, a **rejected-rows CSV** (with the reason for every rejection) and a
 **summary report**.
 
@@ -36,6 +36,9 @@ Rows read: 14 | valid: 6 | invalid: 6 | duplicates: 2
 
 ```
 csvtool INPUT [-o DIR] [-c CONFIG] [--xlsx] [--json-report]
+
+
+
               [--encoding ENC] [--delimiter CHAR] [--log-file FILE] [-v | -q] [--version]
 ```
 
